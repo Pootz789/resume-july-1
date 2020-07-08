@@ -5,12 +5,14 @@
 .headings {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    background-color: tomato;
+    background-color: black;
+    color: gold;
 }
 .two {
-    background-color: rgb(206, 203, 13);
+    background-color: gold;
     order: -1;
     flex-basis: 25%;
+
 }
 
 .three {
@@ -21,6 +23,7 @@
     grid-template-columns: 50% 50%;
     grid-template-rows: 10% repeat (18, 5%)
     order: 0;
+    padding: 20px;
 }
 .three h1:nth-child(1){
     grid-row: 1 / 2;
@@ -52,7 +55,6 @@
 .three p:nth-child(9){
     grid-row: 7 / 8;
     grid-column: 1;
-    color: orange;
 }
 .three p:nth-child(10){
     grid-row: 8 / 9;
@@ -101,12 +103,10 @@
 .three p:nth-child(22){
     grid-column: 2;
     grid-row: 16 / 17;
-    color: red;
 }
 .three p:nth-child(23){
     grid-row: 17 / 18;
     grid-column: 2;
-    color: red;
 }
 .three p:nth-child(24){
     grid-row: 18 / 19;
@@ -128,10 +128,36 @@
 .three p:nth-child(29){
     grid-row: 18 / 19;
 }
-img {border-radius: 50%;
+.three h3:nth-child(30){
+    grid-row: 20 / 21;
+}
+.three p:nth-child(31){
+    grid-row: 21 / 22;
+}
+.three p:nth-child(32){
+    grid-row: 22 / 23;
+}
+.three p:nth-child(33){
+    grid-row: 23 / 24;
+}
+.three p:nth-child(34){
+    grid-row: 21 / 22;
+    grid-column: 2
+}
+.three p:nth-child(35){
+    grid-row: 22 / 23;
+    grid-column: 2;
+}
+.three p:nth-child(36){
+    grid-row: 23 / 24;
+    grid-column: 2;
+}
+
+
+    img {border-radius: 50%;
     width: 200px;
     height: 200px;
     margin-left:20%;
     margin-top: 5%;
-}
+
    
