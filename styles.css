@@ -12,18 +12,22 @@
     background-color: gold;
     order: -1;
     flex-basis: 25%;
-
+    margin-right: 5%;
 }
 
 .three {
     
     /* margin-right: 60px; */
-    border: 2px solid black;
+
+
+    /* border: 2px solid black; */
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 250px 250px;
     grid-template-rows: 10% repeat (18, 5%)
     order: 0;
-    padding: 20px;
+    
+    /* padding: 20px; */
+
 }
 .three h1:nth-child(1){
     grid-row: 1 / 2;
@@ -153,11 +157,26 @@
     grid-column: 2;
 }
 
+    
+
+
 
     img {border-radius: 50%;
     width: 200px;
     height: 200px;
     margin-left:20%;
-    margin-top: 5%;
+    margin-top: 5%;}
 
-   
+   .education{
+       border-bottom: 1px solid gold;
+       width: 750px;
+       
+   }
+   .experience{
+       border-bottom: 1px solid gold;
+       width: 725px;
+   }
+   .references{
+       border-bottom: 1px solid gold;
+       width: 725px;
+   }
